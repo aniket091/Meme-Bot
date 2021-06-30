@@ -1,0 +1,21 @@
+{
+  "name": "memer_api_bot",
+  "version": "2.0.0",
+  "description": "Memer api Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Yash & Aniket",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "discord.js": "^12.5.1",
+    "memer-api": "^3.0.2"
+  },
+  "devDependencies": {
+    "ascii-table": "0.0.9",
+    "colors": "^1.4.0"
+  }
+}
