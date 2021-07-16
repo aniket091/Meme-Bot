@@ -15,6 +15,7 @@ module.exports = async (client, message) => {
   const [, matchedPrefix] = message.content.match(prefixRegex);
 
   const args = message.content.slice(matchedPrefix.length).trim().split(/ +/);
+  const commandName = args.shift().toLowerCase();
 
   if (!commandName.length && message.content.includes(client.user.id)) {
     message.reply(new MessageEmbed().setColor("#009dff").setDescription(`**My Prefix here is \`${Prefix}\`**`));
