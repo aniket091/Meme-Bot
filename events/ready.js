@@ -1,6 +1,5 @@
-module.exports = (client) => {
+const client = require('../index')
 
-  console.log(`${client.user.username} ready!`.bold.green)
-  
-  client.user.setActivity("memer-api.js.org | m!help", { type: "PLAYING" });
-}
+client.on('ready', async () => {
+  console.log(': Loaded all events successfully!')
+})

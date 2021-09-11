@@ -1,0 +1,9 @@
+{
+  "token": "Discord bot token",
+  "prefix": "m!",
+  "api_token": "memer api token",
+  "red": "RED",
+  "color": ["BLUE", "BLURPLE"],
+  "cross": "❌",
+  "loading": ["⌛"]
+}

@@ -1,21 +1,16 @@
 {
-  "name": "memer_api_bot",
+  "name": "meme-bot",
   "version": "2.0.0",
-  "description": "Memer api Bot",
+  "description": "Meme Bot Discord",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Yash & Aniket",
-  "license": "ISC",
+  "author": "Aniket#0729",
   "dependencies": {
-    "ascii-table": "0.0.9",
-    "discord.js": "^12.5.1",
-    "memer-api": "^3.0.2"
-  },
-  "devDependencies": {
-    "ascii-table": "0.0.9",
-    "colors": "^1.4.0"
+    "ascii-table": "^0.0.9",
+    "discord.js": "^13.1.0",
+    "memer-api": "^4.0.0"
   }
 }
